@@ -1,0 +1,12 @@
+experiment_id,experiment,start_year,end_year,activity_id,min_number_yrs_per_sim,tier
+esm-hist-ext,post-2014 all-forcing simulation with atmospheric CO2 concentration calculated,2015,present,CMIP,1,2
+esm-piControl-spinup,pre-industrial control simulation with CO2 concentration calculated (spin-up),,,CMIP,100,2
+historical-ext,post-2014 all-forcing simulation,2015,present,CMIP,1,2
+piControl-spinup,pre-industrial control (spin-up),,,CMIP,100,2
+1pctCO2,1 percent per year increase in CO2,,,CMIP,150,1
+abrupt-4xCO2,abrupt quadrupling of CO2,,,CMIP,150,1
+amip,AMIP,1979,2014,CMIP,36,1
+esm-hist,all-forcing simulation of the recent past with atmospheric CO2 concentration calculated,1850,2014,CMIP,165,1
+esm-piControl,pre-industrial control simulation with CO2 concentration calculated,,,CMIP,500,1
+historical,all-forcing simulation of the recent past,1850,2014,CMIP,165,1
+piControl,pre-industrial control,,,CMIP,500,1
