@@ -1,0 +1,45 @@
+table_id,definition
+3hr,atmosphere sampled every 3 hours
+6hrLev,6-hourly data on atmospheric model levels
+6hrPlev,6-hourly atmospheric data on pressure levels (time mean)
+6hrPlevPt,6-hourly atmospheric data on pressure levels (instantaneous)
+AERday,Daily atmospheric chemistry and aerosol data
+AERfx,Fixed atmospheric chemistry and aerosol data
+AERhr,Hourly atmospheric chemistry and aerosol data
+AERmon,Monthly atmospheric chemistry and aerosol data
+AERmonZ,Monthly atmospheric chemistry and aerosol data
+Amon,Monthly atmospheric data
+CF3hr,3-hourly associated with cloud forcing
+CFday,Daily data associated with cloud forcing
+CFmon,Monthly data associated with cloud forcing
+CFsubhr,Diagnostics for cloud forcing analysis at specific sites
+E1hr,Hourly Atmospheric Data (extension)
+E1hrClimMon,Diurnal Cycle
+E3hr,"3-hourly (time mean, extension)"
+E3hrPt,"3-hourly (instantaneous, extension)"
+E6hrZ,6-hourly Zonal Mean (extension)
+Eday,"Daily (time mean, extension)"
+EdayZ,Daily Zonal Mean (extension)
+Efx,Fixed (extension)
+Emon,"Monthly (time mean, extension)"
+EmonZ,"Monthly zonal means (time mean, extension)"
+Esubhr,Sub-hourly (extension)
+Eyr,"Daily (time mean, extension)"
+IfxAnt,Fixed fields on the Antarctic ice sheet
+IfxGre,Fixed fields on the Greenland ice sheet
+ImonAnt,Monthly fields on the Antarctic ice sheet
+ImonGre,Monthly fields on the Greenland ice sheet
+IyrAnt,Annual fields on the Antarctic ice sheet
+IyrGre,Annual fields on the Greenland ice sheet
+LImon,Monthly fields for the terrestrial cryosphere
+Lmon,Monthly land surface and soil model fields
+Oclim,Monthly climatologies of ocean data
+Oday,Daily ocean data
+Odec,Decadal ocean data
+Ofx,Fixed ocean data
+Omon,Monthly ocean data
+Oyr,Annual ocean variables
+SIday,Daily sea-ice data
+SImon,Monthly sea-ice data
+day,Daily Data (extension - contains both atmospheric and oceanographic data)
+fx,Fixed variables
