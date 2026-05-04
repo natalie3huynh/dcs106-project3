@@ -1,6 +1,13 @@
 # dcs106-project3
 
 **File Navigation**:
+
+
+dcs106-project3/:
+- `index.html`: deployed web page
+- `d3.js`: D3 code file for visualizations
+- `styles.css`: Added for styling
+
 data/:
 - `raw.csv`: Contains full dataset with other activities other than CMIP (plus more specific 
 organizations/projects like C4MIP)
