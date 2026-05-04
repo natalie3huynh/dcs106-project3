@@ -1,0 +1,94 @@
+,variable_id,description,table_id(s)
+27,bfeos,Surface Mole Concentration of Particulate Organic Matter Expressed as Iron in Sea Water [mol m-3],Omon
+29,bigthetao,Sea Water Conservative Temperature [degC],Omon
+33,bsios,Surface Mole Concentration of Particulate Organic Matter Expressed as Silicon in Sea Water [mol m-3],Omon
+69,chlcalc,Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+70,chlcalcos,Surface Mass Concentration of Calcareous Phytoplankton Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+72,chldiatos,Surface Mass Concentration of Diatoms Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+74,chldiazos,Surface Mass Concentration of Diazotrophs Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+77,chlmiscos,Surface Mass Concentration of Other Phytoplankton Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+80,chlpicoos,Surface Mass Concentration of Picophytoplankton Expressed as Chlorophyll in Sea Water [kg m-3],Omon
+138,co3sataragos,Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Aragonite in Sea Water [mol m-3],Omon
+140,co3satcalcos,Surface Mole Concentration of Carbonate Ion in Equilibrium with Pure Calcite in Sea Water [mol m-3],Omon
+197,dmso,Mole Concentration of Dimethyl Sulphide in Sea Water [mol m-3],Omon
+198,dmsos,Surface Mole Concentration of Dimethyl Sulphide in Sea Water [mol m-3],Omon
+254,evs,Water Evaporation Flux Where Ice Free Ocean over Sea [kg m-2 s-1],Omon
+301,ficeberg,Water Flux into Sea Water from Icebergs [kg m-2 s-1],Omon
+329,fric,Downward Inorganic Carbon Flux at Ocean Bottom [mol m-2 s-1],Omon
+330,friver,Water Flux into Sea Water from Rivers [kg m-2 s-1],Omon
+332,froc,Downward Organic Carbon Flux at Ocean Bottom [mol m-2 s-1],Omon
+334,fsitherm,Water Flux into Sea Water Due to Sea Ice Thermodynamics [kg m-2 s-1],Omon
+357,hfbasinpadv,Northward Ocean Heat Transport Due to Parameterized Eddy Advection [W],Omon
+358,hfbasinpmadv,Northward Ocean Heat Transport Due to Parameterized Mesoscale Advection [W],Omon
+359,hfbasinpmdiff,Northward Ocean Heat Transport Due to Parameterized Mesoscale Diffusion [W],Omon
+360,hfbasinpsmadv,Northward Ocean Heat Transport Due to Parameterized Submesoscale Advection [W],Omon
+364,hfevapds,Temperature Flux Due to Evaporation Expressed as Heat Flux out of Sea Water [W m-2],Omon
+366,hfgeou,Upward Geothermal Heat Flux at Sea Floor [W m-2],Omon
+367,hfibthermds,Heat Flux into Sea Water Due to Iceberg Thermodynamics [W m-2],Omon
+372,hfrainds,Temperature Flux Due to Rainfall Expressed as Heat Flux into Sea Water [W m-2],Omon
+373,hfrunoffds,Temperature Flux Due to Runoff Expressed as Heat Flux into Sea Water [W m-2],Omon
+374,hfsifrazil,Heat Flux into Sea Water Due to Frazil Ice Formation [W m-2],Omon
+375,hfsnthermds,Heat Flux into Sea Water Due to Snow Thermodynamics [W m-2],Omon
+380,hfx,Ocean Heat X Transport [W],Omon
+381,hfy,Ocean Heat Y Transport [W],Omon
+384,htovgyre,Northward Ocean Heat Transport Due to Gyre [W],Omon
+385,htovovrt,Northward Ocean Heat Transport Due to Overturning [W],Omon
+395,icfriver,Flux of Inorganic Carbon into Ocean Surface by Runoff [mol m-2 s-1],Omon
+404,intpn2,Nitrogen Fixation Rate in Ocean [mol m-2 s-1],Omon
+461,masscello,Ocean Grid-Cell Mass per Area [kg m-2],Omon
+467,mfo,Sea Water Transport [kg s-1],Omon
+469,mlotstmax,Maximum Ocean Mixed Layer Thickness Defined by Sigma T [m],Omon
+470,mlotstmin,Minimum Ocean Mixed Layer Thickness Defined by Sigma T [m],Omon
+471,mlotst,Ocean Mixed Layer Thickness Defined by Sigma T [m],Omon
+472,mlotstsq,Square of Ocean Mixed Layer Thickness Defined by Sigma T [m2],Omon
+504,msftbarot,Ocean Barotropic Mass Streamfunction [kg s-1],Omon
+505,msftmrhompa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection [kg s-1],Omon
+506,msftmrho,Ocean Meridional Overturning Mass Streamfunction [kg s-1],Omon
+507,msftmzmpa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection [kg s-1],Omon
+508,msftmz,Ocean Meridional Overturning Mass Streamfunction [kg s-1],Omon
+509,msftmzsmpa,Ocean Meridional Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection [kg s-1],Omon
+510,msftyrho,Ocean Y Overturning Mass Streamfunction [kg s-1],Omon
+511,msftyzmpa,Ocean Y Overturning Mass Streamfunction Due to Parameterized Mesoscale Advection [kg s-1],Omon
+512,msftyz,Ocean Y Overturning Mass Streamfunction [kg s-1],Omon
+513,msftyzsmpa,Ocean Y Overturning Mass Streamfunction Due to Parameterized Submesoscale Advection [kg s-1],Omon
+562,obvfsq,Square of Brunt Vaisala Frequency in Sea Water [s-2],Omon
+563,ocfriver,Flux of Organic Carbon into Ocean Surface by Runoff [mol m-2 s-1],Omon
+613,pbo,Sea Water Pressure at Sea Floor [Pa],Omon
+624,phycalc,Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+625,phycalcos,Surface Mole Concentration of Calcareous Phytoplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+629,phydiatos,Surface Mole Concentration of Diatoms Expressed as Carbon in Sea Water [mol m-3],Omon
+631,phydiazos,Surface Mole Concentration of Diazotrophs Expressed as Carbon in Sea Water [mol m-3],Omon
+633,phyfeos,Surface Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water [mol m-3],Omon
+635,phymiscos,Surface Mole Concentration of Miscellaneous Phytoplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+637,phynos,Surface Mole Concentration of Phytoplankton Nitrogen in Sea Water [mol m-3],Omon
+639,phypicoos,Surface Mole Concentration of Picophytoplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+641,phypos,Surface Mole Concentration of Total Phytoplankton Expressed as Phosphorus in Sea Water [mol m-3],Omon
+643,physios,Surface Mole Concentration of Total Phytoplankton Expressed as Silicon in Sea Water [mol m-3],Omon
+648,ponos,Surface Mole Concentration of Particulate Organic Matter Expressed as Nitrogen in Sea Water [mol m-3],Omon
+650,popos,Surface Mole Concentration of Particulate Organic Matter Expressed as Phosphorus in Sea Water [mol m-3],Omon
+672,pso,Sea Water Pressure at Sea Water Surface [Pa],Omon
+731,rsdo,Downwelling Shortwave Radiation in Sea Water [W m-2],Omon
+738,rsntds,Net Downward Shortwave Radiation at Sea Water Surface [W m-2],Omon
+858,sltovgyre,Northward Ocean Salt Transport Due to Gyre [kg s-1],Omon
+859,sltovovrt,Northward Ocean Salt Transport Due to Overturning [kg s-1],Omon
+880,sob,Sea Water Salinity at Sea Floor [0.001],Omon
+885,so,Sea Water Salinity [0.001],Omon
+886,sosga,Global Average Sea Surface Salinity [0.001],Omon
+922,thetao,Sea Water Potential Temperature [degC],Omon
+953,tob,Sea Water Potential Temperature at Sea Floor [degC],Omon
+984,umo,Ocean Mass X Transport [kg s-1],Omon
+1005,vmo,Ocean Mass Y Transport [kg s-1],Omon
+1011,vsfevap,Virtual Salt Flux into Sea Water Due to Evaporation [kg m-2 s-1],Omon
+1012,vsfpr,Virtual Salt Flux into Sea Water Due to Rainfall [kg m-2 s-1],Omon
+1013,vsfriver,Virtual Salt Flux into Sea Water from Rivers [kg m-2 s-1],Omon
+1014,vsfsit,Virtual Salt Flux into Sea Water Due to Sea Ice Thermodynamics [kg m-2 s-1],Omon
+1015,vsf,Virtual Salt Flux into Sea Water [kg m-2 s-1],Omon
+1040,wfonocorr,Water Flux into Sea Water Without Flux Correction [kg m-2 s-1],Omon
+1042,wmo,Upward Ocean Mass Transport [kg s-1],Omon
+1050,zfullo,Depth Below Geoid of Ocean Layer [m],Omon
+1057,zhalfo,Depth Below Geoid of Interfaces Between Ocean Layers [m],Omon
+1059,zmesoos,Surface Mole Concentration of Mesozooplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+1061,zmicroos,Surface Mole Concentration of Microzooplankton Expressed as Carbon in Sea Water [mol m-3],Omon
+1066,zos,Sea Surface Height Above Geoid [m],Omon
+1067,zossq,Square of Sea Surface Height Above Geoid [m2],Omon
+1068,zostoga,Global Average Thermosteric Sea Level Change [m],Omon
