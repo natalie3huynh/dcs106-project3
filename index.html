@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ocean Surface Temperature Explorer</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div id="header">
+    <h1>Ocean Surface Temperature Explorer</h1>
+    <p>Sea Surface Temperature (SST) by ocean region — CMIP6 MIROC6 historical simulation, 1990–2015 average. Hover over an ocean region to see statistics.</p>
+  </div>
+
+  <div id="map-container">
+    <svg id="map"></svg>
+    <div id="tooltip"></div>
+  </div>
+
+  <!-- D3 and TopoJSON from CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson@3/dist/topojson.min.js"></script>
+
+  <!-- visualization code -->
+  <script src="d3.js"></script>
+
+</body>
+</html>
