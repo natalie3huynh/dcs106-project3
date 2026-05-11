@@ -413,7 +413,7 @@ function drawMap() {
   .attr("x", width / 2)
   .attr("y", 28)
   .attr("text-anchor", "middle")
-  .style("font-size", "13px")
+  .style("font-size", "18px")
   .style("fill", "#555")
   .style("display", "none")
   .text("Change in Ocean Temperature: Difference in Mean Sea Temperature between 1990–2015 and 1950–1989 ");
@@ -421,7 +421,7 @@ function drawMap() {
   .attr("x", width / 2)
   .attr("y", 28)
   .attr("text-anchor", "middle")
-  .style("font-size", "13px")
+  .style("font-size", "18px")
   .style("fill", "#555")
   .text("Sea Surface Temperature: 1990–2015 Mean");
 
