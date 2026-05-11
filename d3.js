@@ -409,6 +409,22 @@ function drawMap() {
 
   renderLegend(legendItems);
 
+  const compareTitle = svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 28)
+  .attr("text-anchor", "middle")
+  .style("font-size", "13px")
+  .style("fill", "#555")
+  .style("display", "none")
+  .text("Change in Ocean Temperature: Difference in Mean Sea Temperature between 1990–2015 and 1950–1989 ");
+  const mainTitle = svg.append("text")
+  .attr("x", width / 2)
+  .attr("y", 28)
+  .attr("text-anchor", "middle")
+  .style("font-size", "13px")
+  .style("fill", "#555")
+  .text("Sea Surface Temperature: 1990–2015 Mean");
+
   document
     .getElementById("toggle-btn")
     .addEventListener("click", () => {
@@ -422,6 +438,10 @@ function drawMap() {
         isCompareMode
           ? "Show Present"
           : "Show Δ Change";
+          redrawCanvas(_ctx, _width, _height, _projection, isCompareMode);
+  renderLegend(isCompareMode ? deltaLegendItems : legendItems);
+  compareTitle.style("display", isCompareMode ? null : "none");
+  mainTitle.style("display", isCompareMode ? "none" : null); 
 
       redrawCanvas(
         _ctx,
