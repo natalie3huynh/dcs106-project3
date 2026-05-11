@@ -433,7 +433,7 @@ const compareTitle = svg.append("text")
 
 compareTitle.append("tspan")
   .attr("x", width / 2)
-  .text("Difference in Mean Sea Temperature: 1990–2015, a major warming period recorded by  the NOAA,");
+  .text("Difference in Mean Sea Temperature (°C): 1990–2015, a major warming period, ");
 
 compareTitle.append("tspan")
   .attr("x", width / 2)
@@ -446,7 +446,7 @@ const mainTitle = svg.append("text")
   .attr("text-anchor", "middle")
   .style("font-size", "18px")
   .style("fill", "white")
-  .text("Sea Surface Temperature: 1990–2015 Mean");
+  .text("Sea Surface Temperature (°C): 1990–2015 Mean");
 
   document
     .getElementById("toggle-btn")
