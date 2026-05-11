@@ -409,20 +409,43 @@ function drawMap() {
 
   renderLegend(legendItems);
 
-  const compareTitle = svg.append("text")
+const boxPadding = 40;
+const boxWidth = width - boxPadding * 2;
+const boxHeight = 58;
+
+const titleBox = svg.append("rect")
+  .attr("x", boxPadding)
+  .attr("y", 6)
+  .attr("width", boxWidth)
+  .attr("height", boxHeight)
+  .attr("rx", 12)
+  .attr("ry", 12) // helps enforce rounding in all browsers
+  .style("fill", "black")
+  .style("stroke", "#333")
+  .style("stroke-width", 1);
+const compareTitle = svg.append("text")
   .attr("x", width / 2)
   .attr("y", 28)
   .attr("text-anchor", "middle")
   .style("font-size", "18px")
-  .style("fill", "#555")
-  .style("display", "none")
-  .text("Change in Ocean Temperature: Difference in Mean Sea Temperature between 1990–2015 and 1950–1989 ");
-  const mainTitle = svg.append("text")
+  .style("fill", "white")
+  .style("display", "none");
+
+compareTitle.append("tspan")
+  .attr("x", width / 2)
+  .text("Difference in Mean Sea Temperature: 1990–2015, a major warming period recorded by  the NOAA,");
+
+compareTitle.append("tspan")
+  .attr("x", width / 2)
+  .attr("dy", "1.2em")
+  .text(" vs. 1950–1989, the beginning of modern ocean temperature recording.");
+
+const mainTitle = svg.append("text")
   .attr("x", width / 2)
   .attr("y", 28)
   .attr("text-anchor", "middle")
   .style("font-size", "18px")
-  .style("fill", "#555")
+  .style("fill", "white")
   .text("Sea Surface Temperature: 1990–2015 Mean");
 
   document
